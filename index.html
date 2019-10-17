@@ -5,20 +5,11 @@
         <title>BEASTIEBOYSHOTSAUCECOMMITTEEPARTTWO</title>
     </head>
     <body>
-        <a-scene background="color: black">
-<!--
-            <a-assets>
-                <audio id="song" src="song.mp3" preload="auto"></audio>
-            </a-assets>
--->
+        <a-sky src="bboys.jpg"></a-sky>
             
-            <a-camera position="0 0 15">
-                <a-cursor></a-cursor>
-            </a-camera>
+            <a-camera position="0 0 15"></a-camera>
             
-<!--            <a-sound position="-3 0 10" src="song.mp3" autoplay= "true" loop="true"></a-sound>-->
-            
-            <a-entity color="white" geometry="primitive: plane" position="-3 0 10" sound="src: song.mp3; autoplay: true; on: hover"></a-entity>
+            <a-entity color="white" geometry="primitive: plane" visible="false" position="-3 0 10" sound="src: song.mp3; autoplay: true; loop: true"></a-entity>
             
             <a-box color="#E9E8E3" depth="2" height="10" width="10" position="0 0 1" rotation="0 30 0">
                 <a-text value="BEASTIEBOYS" 
