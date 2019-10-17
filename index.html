@@ -6,9 +6,9 @@
     </head>
     <body>
         <a-scene>
-            <a-sky src="background.jpg" animation="property: rotation; to: 0 360 0; loop: true; dur: 25000; easing: linear"></a-sky>
+            <a-sky src="background.jpg" animation="property: rotation; to: 0 360 0; loop: true; dur: 25000; delay: 10000; easing: linear"></a-sky>
             
-            <a-camera position="0 0 15"></a-camera>
+            <a-camera position="0 0 12"></a-camera>
             
             <a-entity color="white" geometry="primitive: plane" visible="false" position="-3 0 10" sound="src: song.mp3; autoplay: true; loop: true"></a-entity>
             
@@ -26,7 +26,7 @@
                         height="10"
                         width="10"></a-text>
                 <a-box color="#7AA6ED" depth="1" height="7" width="8.5" position="0 -.5 1">
-                    <a-box color="#CF3A34" depth="2" height="1" width="1" position="-3.75 3 -.3" animation="property: position; dir: alternate; dur: 200; easing: easeInSine; loop: true; to: -3.75 3 1"></a-box>
+                    <a-box color="#CF3A34" depth="2" height="1" width="1" position="-3.75 3 -.3" animation="property: position; dir: alternate; dur: 200; easing: easeInSine; delay: 10000; loop: true; to: -3.75 3 1"></a-box>
                     
                     <a-box color="#212526" depth="2" height=".5" width=".5" position="-.75 2.2 .5"></a-box>
                     
